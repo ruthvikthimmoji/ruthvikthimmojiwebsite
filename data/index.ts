@@ -143,12 +143,28 @@ export const navItems = [
 
   export const uxui = [
     {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
+      id: 1,
+      title: "Rider App",
+      des: "A modern ui of Rider App where it is for booking of the cab service",
+      img: "/Rider-app.svg",
       iconLists: ["/figma.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "",
+    },
+    {
+      id: 2,
+      title: "Dashboard for a Travel company",
+      des: "his dashboard provides real-time insights, detailed analytics, and customizable reports to help travel agents and companies plan, monitor, and optimize their travel packages.",
+      img: "/Rome.svg",
+      iconLists: ["/figma.svg"],
+      link: "",
+    },
+    {
+      id: 3,
+      title: "Dashboard ",
+      des: "This dashboard provides real-time insights, detailed analytics, and customizable reports to help social media enagae and companies plan, monitor, and optimize their travel packages.",
+      img: "/Dashboard.svg",
+      iconLists: ["/figma.svg"],
+      link: "",
     },
 
   ];

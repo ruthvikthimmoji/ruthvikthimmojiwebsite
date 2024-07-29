@@ -2,6 +2,7 @@ import React from 'react'
 import { FaLocationArrow } from 'react-icons/fa'
 import { PinContainer } from './ui/3d-pin'
 import { uxui } from '@/data'
+import MagicButton from './MagicButton'
 
 const UxUi = () => {
     return (
@@ -47,14 +48,18 @@ const UxUi = () => {
                                    ))}
                                 </div>
                                 <div className='flex justify-center items-center'>
-                                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'> check Live site</p>
-                                    <FaLocationArrow className='ms-3' color='#CBACF9'/>
+                                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'></p>
+                                    {/* <FaLocationArrow className='ms-3' color='#CBACF9'/> */}
                                 </div>
                             </div>
                         </PinContainer>
                     </div>
                 ))}
             </div>
+            <a href='/Assests/ruthvik_resume_uxui.pdf' className='flex justify-center items-center relative'>
+                    <MagicButton
+                            title='Download UX/UI CV ' icon={<FaLocationArrow/>} position={'right'}/>
+                    </a>
         </div>
     )
 }
