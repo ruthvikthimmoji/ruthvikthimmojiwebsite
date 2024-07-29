@@ -1,17 +1,17 @@
-import { projects } from '@/data'
 import React from 'react'
-import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
+import { PinContainer } from './ui/3d-pin'
+import { uxui } from '@/data'
 
-const RecentProjects = () => {
+const UxUi = () => {
     return (
-        <div className='py-20' id='projects'>
+        <div className='py-20' id='uxui'>
             <h1 className='heading'>
                 A small Selection of{''}
-                <span className='text-purple'> recent  projects </span>
+                <span className='text-purple'> recent UX/UI projects </span>
             </h1>
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'> 
-                {projects.map(({ id,
+                {uxui.map(({ id,
                     title,
                     des,
                     img,
@@ -59,4 +59,4 @@ const RecentProjects = () => {
     )
 }
 
-export default RecentProjects
+export default UxUi

@@ -1,6 +1,11 @@
+import { link } from "fs";
+
 export const navItems = [
     { name: "About", link: "#about" },
+    {name:"Socials",link:"#socials"},
     { name: "Projects", link: "#projects" },
+    { name: "UX/UI", link: "#uxui" },
+    {name:"Education", link:"#Education"},
     { name: "testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
@@ -49,7 +54,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a App that helps salons for customer mangement CARTHAIR",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -135,6 +140,18 @@ export const navItems = [
       title: "Director of AlphaStream Technologies",
     },
   ];
+
+  export const uxui = [
+    {
+      id: 4,
+      title: "Animated Apple Iphone 3D Website",
+      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      img: "/p4.svg",
+      iconLists: ["/figma.svg"],
+      link: "https://github.com/adrianhajdin/iphone",
+    },
+
+  ];
   
   export const companies = [
     {
@@ -169,34 +186,40 @@ export const navItems = [
     },
   ];
   
-  export const workExperience = [
+  export const education = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "East West Institute of Technology",
+      desc: "B.E in Computer Science, CGPA - 7.0",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "St.John's Pu Science college",
+      desc: "12th PCMB , percentage - 81%",
+      className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Sri Taralabalu Central school",
+      desc: "10th in Central Board of Secondary Education, CGPA - 8.0",
+      className: "md:col-span-2", 
       thumbnail: "/exp3.svg",
     },
+    // {
+    //   id: 4,
+    //   title: "Lead Frontend Developer",
+    //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    //   className: "md:col-span-2",
+    //   thumbnail: "/exp4.svg",
+    // },
+  ];
+
+  export const certificates = [
     {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+
     },
   ];
   
@@ -204,6 +227,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url:'https://github.com/ruthvikthimmoji'
     },
     {
       id: 2,
@@ -212,5 +236,49 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
+      url:'https://www.linkedin.com/in/ruthvik-thimmoji-200b1a216/'
+    },
+    {
+      id: 4,
+      img: "/phone.svg",
+      url:'tel:+916361906550'
     },
   ];
+
+  export const socials = [
+    {
+      id:1,
+      url:'https://dev.to/ruthvik_thimmoji_6fde5e61',
+      img:'/dev.svg'
+    },
+    {
+      id:2,
+      url:'https://www.behance.net/ruthvikthimmoji',
+      img:'/behance.svg'
+    },
+    {
+      id:3,
+      url:'https://dribbble.com/ruthvik_p',
+      img:'/dribble.svg'
+    },
+    {
+      id:4,
+      url:'https://github.com/ruthvikthimmoji',
+      img:'/git.svg'
+    },
+    {
+      id:4,
+      url:'https://medium.com/@thimmojiruthvik',
+      img:'/medium.svg'
+    },
+    {
+      id:4,
+      url:'https://www.leetcode.com/thimmojiruthvik/',
+      img:'/leetcode.svg'
+    },
+    {
+      id:4,
+      url:'https://www.hackerrank.com/thimmojiruthvik',
+      img:'/hackerrank.svg'
+    },
+  ]

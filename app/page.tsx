@@ -8,6 +8,8 @@ import Clients from "@/components/Clients";
 import Education from "@/components/Education";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
+import Socials from "@/components/Socials";
+import UxUi from "@/components/UxUi";
 
 export default function Home() {
   return (
@@ -16,7 +18,9 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <Socials/>
         <RecentProjects/>
+        <UxUi/>
         <Clients/>
         <Education/>
         <Approach/>
