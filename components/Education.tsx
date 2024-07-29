@@ -7,7 +7,7 @@ const Education = () => {
             <div className='py-20' id='Education'>
                 <h1 className='heading'>
                    My Education {''}
-                    <span className='text-purple'> Foundation for My Career </span>
+                    <span className='text-purple'> Foundation for My Career </span>   
                 </h1>
                 <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 '>
                     {education.map((card)=>(

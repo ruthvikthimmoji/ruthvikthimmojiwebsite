@@ -77,11 +77,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "A Next-js Dashboard",
+      des: "Developed a Dashboard using the nextjs and react",
+      img: "/opengraph-image.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/nextjs.svg"],
+      link: "https://github.com/ruthvikthimmoji/nextjs-dashboard.git",
     },
     {
       id: 2,
@@ -93,11 +93,11 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
+      title: "A Netlix Clone Landing Page",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      img: "/image.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
+      link: "https://github.com/ruthvikthimmoji/netflix_Landingpage.git",
     },
     {
       id: 4,
@@ -166,15 +166,23 @@ export const navItems = [
       iconLists: ["/figma.svg"],
       link: "",
     },
+    {
+      id: 4,
+      title: "LMS ",
+      des: "A New Learning Management System where user will get their personalised analytics and insights about their journey of learning.",
+      img: "/Frame.svg",
+      iconLists: ["/figma.svg"],
+      link: "",
+    },
 
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "Next.js",
+      img: "/nextjs.svg",
+      nameImg: "/nextjs-13.svg",
     },
     {
       id: 2,

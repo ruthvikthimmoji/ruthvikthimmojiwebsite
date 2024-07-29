@@ -3,6 +3,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 import { PinContainer } from './ui/3d-pin'
 import { uxui } from '@/data'
 import MagicButton from './MagicButton'
+import FindMoreButton from './ui/FindMoreButton'
 
 const UxUi = () => {
     return (
@@ -11,7 +12,7 @@ const UxUi = () => {
                 A small Selection of{''}
                 <span className='text-purple'> recent UX/UI projects </span>
             </h1>
-            <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'> 
+            <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
                 {uxui.map(({ id,
                     title,
                     des,
@@ -22,12 +23,12 @@ const UxUi = () => {
                         <PinContainer title={link} href={link}>
                             <div className='relative flex justify-center items-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[30vh] h-[20vh] mb-10'>
                                 <div className='relative w-full h-full overflow-hidden bg-[#13162d] lg:rounded-3xl'>
-                                    <img src='/bg.png' alt='bg-img'/>
+                                    <img src='/bg.png' alt='bg-img' />
                                 </div>
                                 <img
-                                src={img}
-                                alt={title}
-                                className="z-10 absolute bottom-0"
+                                    src={img}
+                                    alt={title}
+                                    className="z-10 absolute bottom-0"
                                 />
                             </div>
                             <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
@@ -38,14 +39,14 @@ const UxUi = () => {
                             </p>
                             <div className='flex items-center justify-between mt-7 mb-3'>
                                 <div className='flex items-center'>
-                                   {iconLists.map((icon,index) => (
-                                    <div key={icon} className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center'
-                                     style={{transform:`translateX(-${5*index*2}px)`}}>
-                                        <img 
-                                        src={icon} alt={icon} className='p-2'
-                                        />
-                                    </div>
-                                   ))}
+                                    {iconLists.map((icon, index) => (
+                                        <div key={icon} className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center'
+                                            style={{ transform: `translateX(-${5 * index * 2}px)` }}>
+                                            <img
+                                                src={icon} alt={icon} className='p-2'
+                                            />
+                                        </div>
+                                    ))}
                                 </div>
                                 <div className='flex justify-center items-center'>
                                     <p className='flex lg:text-xl md:text-xs text-sm text-purple'></p>
@@ -56,10 +57,15 @@ const UxUi = () => {
                     </div>
                 ))}
             </div>
+            <div className='flex justify-end'>
+                <a href='https://www.figma.com/design/PnR4pPrUYgdyX3Ti6T9tE6/Untitled?node-id=0-1&t=0Kemq1VsHRARlfge-1'>
+                    <FindMoreButton />
+                </a>
+            </div>
             <a href='/Assests/ruthvik_resume_uxui.pdf' className='flex justify-center items-center relative'>
-                    <MagicButton
-                            title='Download UX/UI CV ' icon={<FaLocationArrow/>} position={'right'}/>
-                    </a>
+                <MagicButton
+                    title='Download UX/UI CV ' icon={<FaLocationArrow />} position={'right'} />
+            </a>
         </div>
     )
 }
