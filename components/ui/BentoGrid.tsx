@@ -53,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Figma","UX/UI","CSS","Design",];
-  const rightLists = ["HTML","Tailwind CSS","Reactjs","Next.js"];
+  const leftLists = ["Figma", "UX/UI", "CSS", "Design",];
+  const rightLists = ["HTML", "Tailwind CSS", "Reactjs", "Next.js"];
 
   const [copied, setCopied] = useState(false);
 
@@ -68,8 +68,12 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "thimmojiruthvik@gmail.com";
-    navigator.clipboard.writeText(text);
+    const email = "thimmojiruthvik@gmail.com";
+    const subject = "Collaboration Inquiry";
+    const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+
+    window.location.href = mailtoUrl;
+
     setCopied(true);
   };
 
@@ -129,7 +133,7 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
-        
+
           <div
             className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
           >

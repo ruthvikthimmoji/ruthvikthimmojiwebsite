@@ -6,7 +6,7 @@ export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "UX/UI", link: "#uxui" },
     {name:"Education", link:"#Education"},
-    { name: "testimonials", link: "#testimonials" },
+    { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -54,7 +54,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a App that helps salons for customer mangement CARTHAIR",
+      title: "Currently building CARTHAIR, An app designed to streamline customer management for salons.",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -139,6 +139,7 @@ export const navItems = [
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
+    
   ];
 
   export const uxui = [
@@ -303,6 +304,6 @@ export const navItems = [
     {
       id:4,
       url:'https://www.hackerrank.com/thimmojiruthvik',
-      img:'/hackerrank.svg'
+      img:'/hackerank1.svg'
     },
   ]

@@ -9,8 +9,8 @@ const UxUi = () => {
     return (
         <div className='py-20' id='uxui'>
             <h1 className='heading'>
-                A small Selection of{''}
-                <span className='text-purple'> recent UX/UI projects </span>
+                My Latest {''}
+                <span className='text-purple'> UX/UI projects </span>
             </h1>
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
                 {uxui.map(({ id,

@@ -5,13 +5,13 @@ import { Button } from './ui/MovingBorders'
 const Socials = () => {
   return (
     <div className='py-20' id='socials'>
-         <h1 className='heading'>
-               connect with {''}
-                <span className='text-purple'> through my socials </span>
-            </h1>
-        <div className='flex flex-wrap items-center justify-center p-6 gap-x-24 gap-y-8 mt-10'>
-          {socials.map((apps) => (
-            <Button key={apps.id}>
+      <h1 className='heading'>
+        Stay connected through{''}
+        <span className='text-purple'> my socials! </span>
+      </h1>
+      <div className='flex flex-row items-center justify-center p-8 gap-x-24 gap-y-8 mt-10'>
+        {socials.map((apps) => (
+          <Button key={apps.id}>
             <a
               key={apps.id}
               href={apps.url}
@@ -22,13 +22,13 @@ const Socials = () => {
               <img
                 src={apps.img}
                 alt={apps.img}
-                width={20}
-                height={20}
+                width={30}
+                height={30}
               />
             </a>
-            </Button>
-          ))}
-        </div>
+          </Button>
+        ))}
+      </div>
     </div>
   )
 }
