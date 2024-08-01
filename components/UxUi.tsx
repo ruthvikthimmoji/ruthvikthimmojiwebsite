@@ -62,7 +62,7 @@ const UxUi = () => {
                     <FindMoreButton />
                 </a>
             </div>
-            <a href='/Assests/ruthvikthimmoji_resume.pdf' className='flex justify-center items-center relative m-4'>
+            <a href='/Assests/RUthvikthimmoji_resume.pdf' className='flex justify-center items-center relative m-4'>
                 <MagicButton
                     title='Download UX/UI CV ' icon={<FaLocationArrow />} position={'right'} />
             </a>
