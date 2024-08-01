@@ -9,7 +9,7 @@ const Socials = () => {
         Stay connected through{''}
         <span className='text-purple'> my socials! </span>
       </h1>
-      <div className='flex flex-row items-center justify-center p-8 gap-x-24 gap-y-8 mt-10'>
+      <div className='w-full mt-12 flex lg:flex-cols-4 flex-row gap-10 justify-center items-center' >
         {socials.map((apps) => (
           <Button key={apps.id}>
             <a
@@ -17,9 +17,9 @@ const Socials = () => {
               href={apps.url}
               target="_blank"
               rel="noopener noreferrer"
-              className=' relative w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-full border border-black-200'
+              className=' flex-1 text-white dark:border-slate-800 border-neutral-200'
             >
-              <img
+              <img className='lg:w-32 md:w-20 w-16'
                 src={apps.img}
                 alt={apps.img}
                 width={30}

@@ -21,7 +21,7 @@ export default function Home() {
         <Socials/>
         <RecentProjects/>
         <UxUi/>
-        <Clients/>
+        {/* <Clients/> */}
         <Education/>
         <Approach/>
         <Footer/>

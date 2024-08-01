@@ -57,12 +57,12 @@ const UxUi = () => {
                     </div>
                 ))}
             </div>
-            <div className='flex justify-end'>
+            <div className='flex justify-end m-10'>
                 <a href='https://www.figma.com/design/PnR4pPrUYgdyX3Ti6T9tE6/Untitled?node-id=0-1&t=0Kemq1VsHRARlfge-1'>
                     <FindMoreButton />
                 </a>
             </div>
-            <a href='/Assests/ruthvik_resume_uxui.pdf' className='flex justify-center items-center relative'>
+            <a href='/Assests/ruthvikthimmoji_resume.pdf' className='flex justify-center items-center relative m-4'>
                 <MagicButton
                     title='Download UX/UI CV ' icon={<FaLocationArrow />} position={'right'} />
             </a>

@@ -6,7 +6,7 @@ export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "UX/UI", link: "#uxui" },
     {name:"Education", link:"#Education"},
-    { name: "Testimonials", link: "#testimonials" },
+    // { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -77,19 +77,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "CARTHAIR - A Salon Management App",
+      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      img: "/carthair.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://carthair.vercel.app",
+    },     
+    {
+      id: 2,
       title: "A Next-js Dashboard",
       des: "Developed a Dashboard using the nextjs and react",
       img: "/opengraph-image.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/nextjs.svg"],
       link: "https://github.com/ruthvikthimmoji/nextjs-dashboard.git",
-    },
-    {
-      id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
     },
     {
       id: 3,
@@ -99,14 +99,14 @@ export const navItems = [
       iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
       link: "https://github.com/ruthvikthimmoji/netflix_Landingpage.git",
     },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },
+    // {
+    //   id: 4,
+    //   title: "Animated Apple Iphone 3D Website",
+    //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    //   img: "/p4.svg",
+    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    //   link: "https://github.com/adrianhajdin/iphone",
+    // },
   ];
   
   export const testimonials = [
@@ -256,15 +256,11 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
       url:'https://www.linkedin.com/in/ruthvik-thimmoji-200b1a216/'
     },
     {
-      id: 4,
+      id: 3,
       img: "/phone.svg",
       url:'tel:+916361906550'
     },

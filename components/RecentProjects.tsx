@@ -49,14 +49,14 @@ const RecentProjects = () => {
                                 </div>
                                 <div className='flex justify-center items-center'>
                                     <p className='flex lg:text-xl md:text-xs text-sm text-purple'></p>
-                                    <FaLocationArrow className='ms-3' color='#CBACF9'/>
+                                    {/* <FaLocationArrow className='ms-3' color='#CBACF9'/> */}
                                 </div>
                             </div>
                         </PinContainer>
                     </div>
                 ))}
             </div>
-            <div className='flex justify-end'>
+            <div className='flex justify-end m-10'>
                 <a href='https://github.com/ruthvikthimmoji'>
                     <FindMoreButton />
                 </a>
