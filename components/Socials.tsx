@@ -17,7 +17,7 @@ const Socials = () => {
               href={apps.url}
               target="_blank"
               rel="noopener noreferrer"
-              className='w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-full border border-black-200'
+              className=' relative w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-full border border-black-200'
             >
               <img
                 src={apps.img}
