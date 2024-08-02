@@ -78,7 +78,7 @@ export const navItems = [
     {
       id: 1,
       title: "CARTHAIR - A Salon Management App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      des: "Simplify your customer mangaement experience with CartHair.",
       img: "/carthair.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://carthair.vercel.app",
