@@ -29,7 +29,7 @@ const Hero = () => {
                         A Passionate Developer & Designer  <span className='text-purple'>📌 Bengaluru</span>  
                     </p>
 
-                    <a href='/Assests/ruthvik_resume.pdf'>
+                    <a href='/Assests/Ruthvik_technical.pdf'>
                         <MagicButton
                             title='Explore my Resume' icon={<FaLocationArrow />} position={'right'} />
                     </a>
